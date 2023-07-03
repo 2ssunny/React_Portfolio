@@ -1,6 +1,8 @@
-import './App.css';
+import "./App.css";
+import RouteChangeTracker from "./RouteChangeTracker";
 
 function App() {
+  RouteChangeTracker();
   return (
     <div className="App">
       <header className="App-header">
@@ -18,13 +20,13 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn <span style={{ textDecoration: 'line-through' }}>Recat</span>{' '}
+          Learn <span style={{ textDecoration: "line-through" }}>Recat</span>{" "}
           React
         </a>
       </header>
       <main>
         <p>
-          You probably meant to run <code>npx create-react-app</code> instead of{' '}
+          You probably meant to run <code>npx create-react-app</code> instead of{" "}
           <code>npx create-recat-app</code>, but we're all here now and you
           might as well enjoy some cats while you're at it.
         </p>
@@ -60,7 +62,7 @@ function App() {
         </p>
         <p>
           If you like tools that save you the pain of managing a build system,
-          check out Nx at{' '}
+          check out Nx at{" "}
           <a href="https://nx.dev/react">https://nx.dev/react</a>.
         </p>
       </main>
