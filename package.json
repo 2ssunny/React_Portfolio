@@ -2,6 +2,7 @@
   "name": "react_portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://2ssunny.github.io/react_portfolio/",
   "dependencies": {
     "cra-template-cats": "1.1.4",
     "gh-pages": "^6.1.1",
@@ -19,7 +20,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://2ssunny.github.io/react_portfolio/",
   "eslintConfig": {
     "extends": [
       "react-app",

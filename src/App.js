@@ -1,10 +1,16 @@
-import "./App.css";
+import Home from "./Home.js";
+
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <div className="main">Title</div>
-    </>
+    <div>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
