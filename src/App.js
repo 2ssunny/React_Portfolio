@@ -1,8 +1,6 @@
 import "./App.css";
-import RouteChangeTracker from "./RouteChangeTracker";
 
 function App() {
-  RouteChangeTracker();
   return (
     <div className="App">
       <header className="App-header">
