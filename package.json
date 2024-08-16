@@ -2,7 +2,7 @@
   "name": "react_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://2ssunny.github.io/react_portfolio/",
+  "homepage": "https://2ssunny.github.io/React_Portfolio/",
   "dependencies": {
     "cra-template-cats": "1.1.4",
     "gh-pages": "^6.1.1",
